@@ -14,6 +14,9 @@ This repository contains the official implementation of **Modular Gradient Surge
 
 ## 💡 Overview
 
+<img width="1026" height="406" alt="image" src="https://github.com/user-attachments/assets/d2e8d46d-6f6e-484a-95fe-2ea5f3c3738c" />
+
+
 Effectiveness of different ways for training reasoning models on multiple domains. Naive strategies, such as sequential RL training (Sequential RL), or mixing different domains in the same batch (Mixed RL), often result in limited performance across domains. We propose Modular Gradient Surgery (MGS), which resolves conflicting gradients at the module level and achieves the best multi-domain performance.
 
 ## ⚙️ Setup
