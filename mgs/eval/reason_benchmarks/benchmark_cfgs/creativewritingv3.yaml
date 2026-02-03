@@ -1,0 +1,11 @@
+judge_model: "openai/gpt-4.1" # "anthropic/claude-3.7-sonnet"
+runs_file: "reason_benchmarks/data_files/creativewritingv3/creative_bench_runs.json"
+num_threads: 1
+
+creative_prompts_file: "reason_benchmarks/data_files/creativewritingv3/creative_writing_prompts_v3.json"
+creative_criteria_file: "reason_benchmarks/data_files/creativewritingv3/creative_writing_criteria.txt"
+negative_criteria_file: "reason_benchmarks/data_files/creativewritingv3/negative_criteria.txt"
+judge_prompt_file: "reason_benchmarks/data_files/creativewritingv3/creative_writing_judging_prompt.txt"
+iterations: 3
+
+max_response_words: 3200

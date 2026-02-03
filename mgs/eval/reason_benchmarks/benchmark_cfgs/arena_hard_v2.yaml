@@ -1,0 +1,5 @@
+judge_model: "openai/gpt-4.1-mini" 
+prompts_file: "reason_benchmarks/data_files/arena_hard_v2/prompts.json"
+num_threads: 1
+
+max_response_words: 3200

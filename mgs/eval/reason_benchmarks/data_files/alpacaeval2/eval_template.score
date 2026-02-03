@@ -1,0 +1,27 @@
+I want you to create a leaderboard of different of large-language models. To do so, I will give you the instructions (prompts) given to the models, and the responses of two models. Please rank the models based on which responses would be preferred by humans. All inputs and outputs should be python dictionaries.
+
+Here is the prompt:
+{
+    "instruction": """{$instruction}""",
+}
+
+Here are the outputs of the models:
+[
+    {
+        "model": "A",
+        "answer": """{$model_output}"""
+    },
+    {
+        "model": "B",
+        "answer": """{$reference}"""
+    }
+]
+
+Now please rank the models by the quality of their answers, so that the model with rank 1 has the best output. Then return a list of the model names and ranks, i.e., produce the following output:
+{
+    "output": [
+        {"model": <model-name>, "rank": <model-rank>},
+        {"model": <model-name>, "rank": <model-rank>}
+    ]
+}
+Your response must be a valid json dictionary and contain nothing else because we will directly execute it in Python. Please provide the ranking that the majority of humans would give.

@@ -1,0 +1,12 @@
+test_file: "reason_benchmarks/data_files/wildbench/v2.json"
+pairwise_eval_template: "reason_benchmarks/data_files/wildbench/eval_template.pairwise"
+score_eval_template: "reason_benchmarks/data_files/wildbench/eval_template.score"
+
+mode: "score"
+max_words_to_eval: 2000 # 1000
+model: "gpt-4o"
+engine: null
+temperature: 0.0
+max_tokens: 1024
+
+ref_model: "gpt-4"

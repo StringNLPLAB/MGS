@@ -1,0 +1,2 @@
+benchmark: "math_500"
+test_file: "reason_benchmarks/data_files/math_500/test.json"

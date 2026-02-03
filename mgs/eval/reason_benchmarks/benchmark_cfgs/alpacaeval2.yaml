@@ -1,0 +1,10 @@
+test_file: "reason_benchmarks/data_files/alpacaeval2/alpaca_eval_gpt4_baseline.json"
+eval_template: "reason_benchmarks/data_files/alpacaeval2/eval_template.score"
+
+max_words_to_eval: 2000
+model: "gpt-4o"
+engine: null
+temperature: 0.0
+max_tokens: 128 # for evaluator
+
+ref_model: "gpt-4"
