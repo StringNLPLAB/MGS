@@ -14,9 +14,7 @@ This repository contains the official implementation of **Modular Gradient Surge
 
 ## 💡 Overview
 
-[![Paper Preview](assets/new_teaser.pdf)](assets/new_teaser.pdf)
-
-Modular Gradient Surgery (MGS) addresses the "interference" problem in multi-task RLHF. By applying gradient surgery at a modular level, we prevent the optimization of one capability (e.g., Math) from degrading another (e.g., Chat/IF), leading to more robust general-purpose reasoning agents.
+Effectiveness of different ways for training reasoning models on multiple domains. Naive strategies, such as sequential RL training (Sequential RL), or mixing different domains in the same batch (Mixed RL), often result in limited performance across domains. We propose Modular Gradient Surgery (MGS), which resolves conflicting gradients at the module level and achieves the best multi-domain performance.
 
 ## ⚙️ Setup
 
