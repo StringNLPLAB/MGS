@@ -97,7 +97,7 @@ You need adjust the configurations such as model path and dataset path according
 
 We utilize specialized evaluation suites to ensure accuracy:
 - Math Eval: [simpleRL-reason](https://github.com/hkust-nlp/simpleRL-reason) suite. 
-- General Eval: [RLMT](https://github.com/princeton-pli/RLMT) (mirrored in `mgs/eval`)
+- General Eval: [RLMT](https://github.com/princeton-pli/RLMT) suite.
 
 ## 📦 Model Checkpoints
 
