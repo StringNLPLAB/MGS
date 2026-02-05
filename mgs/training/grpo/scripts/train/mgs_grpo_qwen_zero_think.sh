@@ -1,5 +1,5 @@
 export PROJECT_NAME=rlvr_rlmt_thinking
-export WANDB_API_KEY=2de3defdedb87a44ee32a7e5d02a764d56e9d765
+export WANDB_API_KEY=your_wandb_key_here
 export LOG=logs/${RUN_NAME}.log
 
 MODEL_PATH=${1:-"models/Qwen/Qwen-2.5-7B-Prompted"}
